@@ -1,10 +1,10 @@
 input int take_profit_em_pontos = 300;
 input double tamanho_do_lote = 0.01;
 input bool trade_apenas_com_swap_positivo = true;
-input int afastamento_de_ordens_buy_em_pontos = 300;
-input int afastamento_de_ordens_sell_em_pontos = 300;
-input int afastamento_de_ema_minimo_sell_em_pontos = 100;
-input int afastamento_de_ema_minimo_buy_em_pontos = 100;
+input int afastamento_de_ordens_buy_em_pontos = 0;
+input int afastamento_de_ordens_sell_em_pontos = 0;
+input int afastamento_de_ema_minimo_sell_em_pontos = 0;
+input int afastamento_de_ema_minimo_buy_em_pontos = 0;
 input int magic_number = 5431;
 
 void OnTick(){ 
