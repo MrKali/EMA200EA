@@ -130,13 +130,12 @@ bool IsSwapTradable(int operationType){
 
 bool NewBar(){ 
    static datetime lastbar;
-   datetime curbar = Time[0];
    
-   if(lastbar!= curbar){
-      lastbar=curbar;
-      return (true);
+   if (Time[0] == lastbar){
+      return false;
    }else{
-      return(false);
+      lastbar = Time[0];
+      return true;
    }
 }
 
