@@ -1,0 +1,8 @@
+take_profit_em_pontos=300
+tamanho_do_lote=0.12
+trade_apenas_com_swap_positivo=true
+afastamento_de_ordens_buy_em_pontos=1000
+afastamento_de_ordens_sell_em_pontos=1000
+afastamento_de_ema_minimo_sell_em_pontos=1000
+afastamento_de_ema_minimo_buy_em_pontos=1000
+magic_number=4
